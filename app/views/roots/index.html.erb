@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Roots</h1>
+
+<div id="roots">
+  <% @roots.each do |root| %>
+    <%= render root %>
+    <p>
+      <%= link_to "Show this root", root %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New root", new_root_path %>

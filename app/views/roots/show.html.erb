@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @root %>
+
+<div>
+  <%= link_to "Edit this root", edit_root_path(@root) %> |
+  <%= link_to "Back to roots", roots_path %>
+
+  <%= button_to "Destroy this root", @root, method: :delete %>
+</div>

@@ -2,6 +2,26 @@
   <%= link_to root_path do %>
     <span style='font-size: 24px'>Home</span>
   <% end %> |
+
+  <%= link_to roots_path do %>
+    <span style='font-size: 16px'>Root</span>
+  <% end %> |
+
+  <%= link_to admins_path do %>
+    <span style='font-size: 16px'>Admin</span>
+  <% end %> |
+
+  <%= link_to customers_path do %>
+    <span style='font-size: 16px'>Customer</span>
+  <% end %> |
+
+  <% if user_signed_in? %>
+    <span style='font-size: 16px; font-weight: bold;'><%= current_user.userable_type %></span> | 
+
+    <%= link_to destroy_user_session_path, data: { turbo_method: :delete } do %>
+      <span style='font-size: 16px'>logout</span>
+    <% end %>
+  <% end %>
 </nav>
 
 <hr>
