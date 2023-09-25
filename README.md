@@ -1,24 +1,11 @@
-# README
+## PUTS DEV - Ruby on Rails 7 raw authorization
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Puts dev, quer dar os primeiros passos em autorização no rails... sem gem de autorização?
 
-Things you may want to cover:
+Existem gemas que fazem de forma extremamente competente a implementação de autorização em um sistema... mas como seria tentar fazer um sisteminha com autorização sem gema?
 
-* Ruby version
+Aqui desenvolvemos autorização sem gemas de autorização no Ruby On Rails
 
-* System dependencies
+## Youtube
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Youtube link](https://youtu.be/_Jn73UrRBCY)
